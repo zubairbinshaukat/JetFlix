@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 const Navbar = () => {
   const pathname = usePathname();
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
   useEffect(() => {
     if (darkMode) {
@@ -16,10 +16,10 @@ const Navbar = () => {
       document.documentElement.classList.remove("dark");
     }
 
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 6000);
-    return () => clearTimeout(timer);
+    // const timer = setTimeout(() => {
+    //   setLoading(false);
+    // }, 6000);
+    // return () => clearTimeout(timer);
   }, [darkMode]);
 
   const handleCheckboxChange = () => {
