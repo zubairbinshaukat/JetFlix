@@ -45,7 +45,14 @@ const Navbar = () => {
               alt="Nazara"
               width={1000}
               height={1000}
-              className="md:w-56 w-40  h-auto"
+              className="dark:hidden md:w-56 w-40  h-auto"
+            />
+            <Image
+              src="/nazaraW.png"
+              alt="Nazara"
+              width={1000}
+              height={1000}
+              className="hidden dark:block md:w-56 w-40  h-auto"
             />
           </Link>
         </div>
