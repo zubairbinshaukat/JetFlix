@@ -1,0 +1,22 @@
+{
+    "name": "Nazara",
+    "short_name": "Nazara",
+    "description": "A place to Watch Movies & Webseries",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#716B6A",
+    "theme_color": "#716B6A",
+    "icons": [
+      {
+        "src": "/192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
