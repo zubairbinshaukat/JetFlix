@@ -2,7 +2,7 @@ import './globals.css'
 import Navbar from '@/components/Navbar'
 import Splash from '@/components/Splash'
 import MobileNavbar from '@/components/MobileNavbar'
-
+import Modal from './_components/Modal'
 export const metadata = {
   title: 'Nazara',
   description: 'A Movies and Web Series Streaming App!',
@@ -21,7 +21,8 @@ export default function RootLayout({ children }) {
       > */}
         <div className="w-full bg-white/10 backdrop-filter backdrop-blur-2xl backdrop-contrast-25 h-full">
           <div className="max-w-[1300px] mx-auto">
-            <Splash />
+            {/* <Splash /> */}
+            <Modal/>
             <Navbar />
             {/* <MobileNavbar/> */}
             {children}
