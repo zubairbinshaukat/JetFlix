@@ -31,7 +31,7 @@ export default function Modal() {
   const closeModal = () => {
     gsap.to(modalRef.current, {
       y: "-100%",
-      duration: 1.5,
+      duration: 1,
       ease: "power3.inOut",
     });
   };
