@@ -6,6 +6,7 @@ import Modal from './_components/Modal'
 export const metadata = {
   title: 'Nazara',
   description: 'A Movies and Web Series Streaming App!',
+  manifest:'/manifest.json'
 }
 
 export default function RootLayout({ children }) {
