@@ -9,7 +9,7 @@ const Saved = () => {
     return name;
   };
   return (
-    <div className="w-full h-full backdrop-blur-lg bg-white/5 p-6 rounded-3xl overflow-y-scroll">
+    <div className="w-full h-full backdrop-blur-lg bg-white/5 p-6 rounded-3xl overflow-y-scroll no-scrollbar">
       <h1 className="text-white font-bold text-xl">Saved</h1>
       <div className="flex flex-col mt-4 gap-3">
         <div className="flex justify-between items-center">

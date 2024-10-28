@@ -289,35 +289,15 @@
     radial-gradient(at 53% 75%, var(--gradient-7) 0, transparent 45%);
 }
 
-.slide-out-top {
-	-webkit-animation: slide-out-top 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	        animation: slide-out-top 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-}
-@-webkit-keyframes slide-out-top {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: translateY(-100vh);
-            transform: translateY(-100vh);
-    opacity: 0;
-  }
-}
-@keyframes slide-out-top {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: translateY(-100vh);
-            transform: translateY(-100vh);
-    opacity: 0;
-  }
-}
 
+/* Hide scrollbar but keep scrolling functionality */
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Edge */
+}
 
 .carousel{
   height: 100%;

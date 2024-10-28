@@ -10,7 +10,7 @@ const Continue = () => {
   };
   return (
     <div>
-      <div className="w-full h-[50vh] backdrop-blur-lg bg-white/5 p-6 rounded-3xl overflow-y-scroll">
+      <div className="w-full h-[50vh] backdrop-blur-lg bg-white/5 p-6 rounded-3xl overflow-y-scroll no-scrollbar">
         <h1 className="text-white font-bold text-xl">Continue Watching</h1>
         <div className="flex flex-col gap-3 mt-4">
           <div className="relative w-full h-[200px] rounded-xl overflow-hidden">
