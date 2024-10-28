@@ -1,6 +1,7 @@
 "use client";
 import Carousel from "./_components/Carousel";
 import Continue from "./_components/Continue";
+import Feed from "./_components/Feed";
 import Saved from "./_components/Saved";
 export default function Home() {
   return (
@@ -10,8 +11,9 @@ export default function Home() {
           <Continue />
           <Saved />
         </div>
-        <div className="col-span-5">
+        <div className="col-span-5 flex flex-col gap-5">
           <Carousel />
+          <Feed/>
         </div>
       </div>
     </>

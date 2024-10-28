@@ -108,7 +108,7 @@ const Carousel = () => {
     },
   ];
   return (
-    <div className="relative w-full h-[400px] md:w-full md:h-[50vh] shadow-xl bg-black rounded-3xl overflow-hidden">
+    <div className="relative w-full h-[400px] md:h-[50vh] shadow-xl rounded-3xl overflow-hidden">
       <div className="carousel h-full w-full " ref={carouselRef}>
         <div className="list">
           {[1, 2, 3, 4].map(( num) => (

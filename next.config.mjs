@@ -22,15 +22,3 @@ const nextConfig = withPWA({
 
 export default nextConfig;
 
-// const withPWA = require('next-pwa')({
-//     dest: 'public', // Output directory for service worker files
-//     register: true, // Register the service worker automatically
-//     skipWaiting: true, // Update the service worker immediately without waiting for users to close tabs
-//   });
-
-//   /** @type {import('next').NextConfig} */
-//   const nextConfig = withPWA({
-//     reactStrictMode: true,
-//   });
-
-//   module.exports = nextConfig;
