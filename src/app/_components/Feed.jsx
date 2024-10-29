@@ -1,8 +1,9 @@
 import React from "react";
 import { RiBearSmileFill } from "react-icons/ri";
+import LoadedMovies from "./LoadedMovies";
 const Feed = () => {
   return (
-    <div>
+    <div className="flex flex-col gap-6">
       <div className=" w-full h-auto flex gap-3 md:p-0 px-2 overflow-x-scroll no-scrollbar ">
         <button className="px-8 py-6 text-xl flex gap-2 items-center text-white rounded-3xl bg-white/10 backdrop-blur-sm hover:bg-white/20 hover:shadow-2xl  duration-200 transition">
           <RiBearSmileFill className="text-2xl" />
@@ -25,6 +26,7 @@ const Feed = () => {
           Animation
         </button>
       </div>
+      <LoadedMovies/>
       {/* <div className="grid grid-cols-2 sm:grid-cols-3  xl:grid-cols-4 gap-6">
         {Array.from({ length: 10 }).map((_, index) => (
           <div key={index} className="group relative">
